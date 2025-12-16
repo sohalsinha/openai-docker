@@ -13,10 +13,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 		)
 )
 @SpringBootApplication
-public class OpenaiApplication {
+public class DockerModelApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OpenaiApplication.class, args);
+		SpringApplication.run(DockerModelApplication.class, args);
 	}
 
 }
